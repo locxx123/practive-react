@@ -1,7 +1,14 @@
+import Header from "./components/Header";
+import TableUsers from "./components/TableUsers";
+import { Container } from 'react-bootstrap';
+
 function App() {
   return (
-    <div className="App">
-        hello
+    <div className="app-container">
+       <Header />
+       <Container>
+            <TableUsers />
+       </Container>
     </div>
   );
 }
